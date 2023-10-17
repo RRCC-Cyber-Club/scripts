@@ -10,10 +10,10 @@ def fav_color():
 	else:
 		print(f"{color} is also a good color")
 	while True:
-		go_again = input("Would you like to go again? y/N\n")
+		go_again = input("Would you like to go again? y/N\")
 		if go_again == 'y' or go_again == 'Y':
 			fav_color()
-				elif go_again == 'n' or go_again == 'N':
+		elif go_again == 'n' or go_again == 'N':
 			print("Goodbye")
 			break
 fav_color()
