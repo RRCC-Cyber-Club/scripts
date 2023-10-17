@@ -9,4 +9,7 @@ def fav_color():
 		if go_again == 'y' or go_again == 'Y':
 			fave_color()
 			break
-		elif go_again==
+		elif go_again== 'n' or go_gain == 'N':
+			print("Goodbye")
+			break
+fav_color
