@@ -2,7 +2,6 @@
 Favorite Color Game
 Coded by Antonio Torres
 '''
-
 def fav_color():
 	a = input("What is your favorite color?")
 	if color == "Red":
@@ -18,4 +17,3 @@ def fav_color():
 			print("Goodbye")
 			break
 fav_color
-
