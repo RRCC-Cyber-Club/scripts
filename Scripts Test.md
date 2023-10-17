@@ -7,4 +7,6 @@ def fav_color():
 	while True:
 		go_again=input("Would you like to go again")
 		if go_again == 'y' or go_again == 'Y':
-			
+			fave_color()
+			break
+		elif go_again==
