@@ -1,4 +1,7 @@
-
+'''
+Favorite Color Game
+Coded by Antonio Torres
+'''
 
 def fav_color():
 	a = input("What is your favorite color?")
