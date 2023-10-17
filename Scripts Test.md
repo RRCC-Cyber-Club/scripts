@@ -1,19 +1,19 @@
+
 '''
-Favorite Color Game
-Coded by Antonio Torres
+Fav Color Game
+Coded by Antonio
 '''
 def fav_color():
-	a = input("What is your favorite color?")
-	if color == "Red":
+	color = input("What is your favorite color?")
+	if color == "Red" or color == 'red':
 		print("That's my favorite color too!")
 	else:
-		print(f"{a} is also a good color")
+		print(f"{color} is also a good color")
 	while True:
-		go_again=input("Would you like to go again")
+		go_again = input("Would you like to go again? y/N\n")
 		if go_again == 'y' or go_again == 'Y':
-			fave_color()
-			break
-		elif go_again== 'n' or go_gain == 'N':
+			fav_color()
+				elif go_again == 'n' or go_again == 'N':
 			print("Goodbye")
 			break
-fav_color
+fav_color()
