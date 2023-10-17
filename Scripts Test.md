@@ -4,4 +4,5 @@ def fav_color():
 		print("That's my favorite color too!")
 	else:
 		print(f"{a} is also a good color")
+	while True:
 	
